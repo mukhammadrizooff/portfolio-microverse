@@ -16,13 +16,12 @@ ol {
 body {
   min-height: 100vh;
   font-family: "Poppins", sans-serif;
-  background-color: #F7F7F9;
+  background-color: #f7f7f9;
 }
 
 main {
   height: 100%;
 }
-
 
 /* Toolbar section */
 .toolbar {
@@ -43,10 +42,9 @@ main {
 
 .menu {
   cursor: pointer;
-  border: none;
   background: none;
   padding: 4px;
-  display:flex;
+  display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid transparent;
@@ -54,6 +52,57 @@ main {
 }
 
 .menu:hover {
-  transition: border-color 0.3s;
   border-color: #6070ff;
+}
+
+/* Landing Section */
+.landing-section {
+  background-image: url(../assets/images/landing-bg-sm.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  background-color: #fff;
+  height: calc(100vh - 48px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom-left-radius: 100px;
+}
+
+@media (min-width: 768px) {
+  .landing-section {
+    background-image: url(../assets/images/landing-bg-lg.svg);
+  }
+}
+
+.landing-section-content {
+  padding: 0 24px;
+  margin: auto;
+  max-width: 920px;
+}
+
+.me {
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.about-me {
+  font-size: 16px;
+  color: #344563;
+}
+
+.social-icon-header {
+  color: #7f8cff;
+  margin-bottom: 12px;
+}
+
+.social-icon-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  width: 200px;
 }
