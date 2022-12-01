@@ -218,11 +218,52 @@ main {
 .card-description {
   font-size: 15px;
   color: #344563;
-  height: 24;
+  line-height: 24px;
 }
 
 .card-button {
   padding: 8px 16px;
+  font-weight: 500;
+  margin: 14px 0;
+  font-size: 17px;
+  letter-spacing: 0.3px;
+}
+
+/* About Me Section */
+.about-me-section {
+  padding: 114px 24px;
+  background-color: #fff;
+  border-top-right-radius: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.about-me-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.about-me-title {
+  font-size: 40px;
+  line-height: 55px;
+  font-weight: 700;
+  color: #172b4d;
+}
+
+.about-me-description {
+  font-size: 16px;
+  color: #344563;
+  line-height: 24px;
+}
+
+.resume-button {
+  padding: 12px;
   font-weight: 500;
   margin: 14px 0;
   font-size: 17px;
