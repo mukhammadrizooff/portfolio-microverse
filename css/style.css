@@ -275,14 +275,17 @@ main {
   width: 100%;
 }
 
-.skill-container li {
+.skill-dropdown-container {
   height: 72px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #dfe1e6;
   padding: 0 18px;
+}
+
+.skill-dropdown-border {
+  border-bottom: 1px solid #dfe1e6;
 }
 
 .skill-title {
@@ -291,7 +294,7 @@ main {
   color: #000;
 }
 
-.arrow-right-button {
+.arrow-button {
   width: 24px;
   height: 24px;
   background-color: transparent;
@@ -299,4 +302,33 @@ main {
   justify-content: center;
   align-items: center;
   border: none;
+}
+
+.arrow-down-button {
+  transform: rotate(90deg);
+}
+
+.skill-dropdown-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px 32px;
+  gap: 12px;
+}
+
+.skill-dropdown-content li {
+  height: 66px;
+  background-color: #f7f7f9;
+  width: 100%;
+  padding: 8px 16px;
+  display: flex;
+  border-radius: 8px;
+}
+
+.skill-dropdown-content span {
+  display: inline-block;
+  margin: auto 17px;
+  color: #253858;
+  font-size: 15px;
 }
