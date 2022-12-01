@@ -269,3 +269,34 @@ main {
   font-size: 17px;
   letter-spacing: 0.3px;
 }
+
+/* Skill Section */
+.skill-section {
+  width: 100%;
+}
+
+.skill-container li {
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #dfe1e6;
+  padding: 0 18px;
+}
+
+.skill-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+}
+
+.arrow-right-button {
+  width: 24px;
+  height: 24px;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+}
