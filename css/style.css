@@ -181,9 +181,13 @@ main {
   color: #172b4d;
 }
 
-.card-tags {
+/* .card-tags {
   display: flex;
   gap: 8px;
+} */
+.card-tags li {
+  float: left;
+  margin-right: 12px;
 }
 
 .card-tags > * {
